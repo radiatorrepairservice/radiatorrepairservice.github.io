@@ -1,0 +1,182 @@
+body {
+	background-color: #202020;
+	background-image: url('images/marble_black.jpg');
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Sans Unicode", "Lucida Sans Unicode Regular", Arial;
+	font-size: 11pt;
+	padding: 30px 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+#main {
+	width: 850px;
+	margin: 0 auto;
+	border: 6px solid #70a710;
+}
+
+/* Header */
+
+#header {
+	background-color: white;
+}
+
+#title {
+	height: 100px;
+}
+
+.logo {
+	padding: 10px 0 0 10px;
+}
+
+.cornerbox {
+	float: right;
+	padding: 15px 10px 0 0;
+}
+
+.space {
+	line-height: 175%;
+}
+
+#navigation {
+	height: 41px;
+	border-bottom: 10px solid #70a710;
+}
+
+#navigation ul {
+	list-style: none;
+	padding: 0;
+	margin-left: 10px;
+}
+
+#navigation li {
+	display: inline;
+}
+
+#navigation li a {	
+	float: left;
+	padding: 12px;
+	margin-right: 10px;
+	color: white;
+	background-color: #70a710;
+}
+
+#navigation li a.current {	
+	float: left;
+	padding: 12px;
+	margin-right: 10px;
+	color: white;
+	background-color: #70a710;
+}
+
+/* Body */
+
+#content {
+	background-color: white;
+	min-height: 430px;
+	padding: 10px 25px;
+}
+
+#content p {
+	padding: 5px 0;
+	text-indent: 31pt;
+}
+
+#content p.indentonly {
+	padding: 0;
+	text-indent: 31pt;
+}
+
+#content h2 {
+	font-size: 18pt;
+	font-weight: normal;
+	color: #537b0c;
+	border-bottom: 2px solid #537b0c;
+	margin: 0 0 10px 0;
+	padding-top: 20px;
+}
+
+#content div.sidebar div.left {
+	width: 250px;
+	float: left;
+	padding-right: 25px;
+}
+
+#content div.sidebar div.left .sidepic {
+	border-color: #537b0c;
+	position: relative;
+	top: 50px;
+}
+
+#content div.sidebar div.right {
+	float: left;
+	width: 500px;
+	padding-right: 25px;
+}
+
+#content div.two {
+	height: 200px;
+}
+
+#content div.two div.left {
+	float: left;
+	width: 375px;
+	padding-right: 25px;
+	padding-bottom: 20px;
+}
+
+#content div.two div.right {
+	float: right;
+	width: 375px;
+	padding-right: 25px;
+	padding-bottom: 20px;
+}
+
+#content div.three {
+	height: 200px;
+}
+
+#content div.three div.left {
+	float: left;
+	width: 241px;
+	padding-right: 25px;
+	padding-bottom: 20px;
+}
+
+#content div.three div.center {
+	float: left;
+	width: 241px;
+	padding-right: 25px;
+	padding-bottom: 20px;
+}
+
+#content div.three div.right {
+	float: right;
+	width: 241px;
+	padding-right: 25px;
+	padding-bottom: 20px;
+}
+
+#content ul {
+	padding-left: 25px;
+	list-style-image: url("images/greysquare.gif");
+	list-style-type: square;
+}
+
+#content .map {
+	position: relative;
+	top: 20px;
+}
+
+/* Footer */
+
+#footer {
+	background-color: white;
+}
+
+#footer p {
+	text-align: center;
+	font-size: 8pt;
+	padding-bottom: 10px;
+}
