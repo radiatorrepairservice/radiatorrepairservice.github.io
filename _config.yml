@@ -1,4 +1,27 @@
 title: Caruso Auto & Radiator
+description: The DuBois and Weedville Area's source for auto, light truck, and industrial radiator repair and auto detailing.
+keywords: radiator, repair, auto, truck, industrial, detailing, service, DuBois, Du Bois, Weedville, PA
 email: terry@radiatorrepairservice.net
+phone: (814) 787-4132
+address:
+  street: 217 River Road
+  city: Weedville, PA  15868
+hours:
+  short: Monday - Friday 8-5
+  long: Monday - Friday from 8 a.m. to 5 p.m.
+mapurl: http://maps.google.com/maps/ms?hl=en&amp;ie=UTF8&amp;msa=0&amp;msid=207146731783345363897.0004994798a9a3e919acf&amp;ll=41.272977,-78.4955822&amp;spn=0.011218,0.015664&amp;z=15
 url: "http://www.radiatorrepairservice.net" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
+
+exclude: [template.html]
+
+nav:
+  -
+    title: Home
+    url: index.html
+  -
+    title: Our Services
+    url: services.html
+  -
+    title: Contact Us
+    url: contactus.html

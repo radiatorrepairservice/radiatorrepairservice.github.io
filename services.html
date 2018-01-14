@@ -1,32 +1,13 @@
+---
+title: Services
+---
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
-<head>
-	<title>Services | Caruso Auto & Radiator</title>
-	<meta name="description" content="The DuBois and Weedville Area's source for auto, light truck, and industrial radiator repair and auto detailing.">
-	<meta name="keywords" content="radiator, repair, auto, truck, industrial, detailing, service, DuBois, Du Bois, Weedville, PA">
-	<link rel="stylesheet" href="style.css">
-</head>
+{% include head.html %}
 
 <body>
 	<div id="main">
-		<div id="header">
-			<div id="title">
-				<img class="logo" src="images/logo.jpg" alt="Caruso Auto & Radiator" align="left">
-				<div class="cornerbox">
-					217 River Road<br>
-					Weedville, PA  15868<br>
-					<span class="space">(814) 787-4132</span><br>
-					<span class="space">Monday - Friday 8-5</span>
-				</div>
-			</div>
-			<div id="navigation">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a class="current" href="#">Our Services</a></li>
-					<li><a href="contactus.html">Contact Us</a></li>
-				</ul>
-			</div>
-		</div>
+		{% include header.html %}
 	
 		<div id="content">
 			<div class="three">
@@ -73,10 +54,6 @@
 			</div>
 		</div>
 		
-		<div id="footer">
-			<p>
-				Copyright &copy; 2016 Terry Caruso.  All Rights Reserved.
-			</p>
-		</div>
+		{% include footer.html %}
 	</div>
 </body>

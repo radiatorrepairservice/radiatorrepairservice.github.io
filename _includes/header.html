@@ -1,0 +1,18 @@
+<div id="header">
+    <div id="title">
+        <img class="logo" src="images/logo.jpg" alt="{{ site.title }}" align="left">
+        <div class="cornerbox">
+            {{ site.address["street"] }}<br>
+            {{ site.address["city"] }}<br>
+            <span class="space">{{ site.phone }}</span><br>
+            <span class="space">{{ site.hours["short"] }}</span>
+        </div>
+    </div>
+    <div id="navigation">
+        <ul>
+            {% for page in site.nav %}
+                <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
